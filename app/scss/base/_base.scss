@@ -13,9 +13,9 @@ html {
 
 // set upp body color
 body{
-  color: map-get($color, bright);
-  background: map-get($color, accent1);
-  @include page-bg ('../images/beaver.jpg');
+  margin: 0;
+  padding: 0;
+	background-color: #F6F6F6;
 }
 
 body a:link{

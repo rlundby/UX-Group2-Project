@@ -101,19 +101,19 @@ gulp.task('clean:dist', function() {
 gulp.task('louis', function() {
   louis({
     timeout: 60,
-    url: 'http://localhost:3004',
+    url: 'http://localhost:3000',
     performanceBudget: {
-      requests: 10,
-      headersSize: 80,
-      cssSize: 19000,
-      jsSize: 2000,
+      requests: 76,
+      headersSize: 42442,
+      cssSize: 55066,
+      jsSize: 226976,
       consoleMessages: 3,
-      imageSize: 700000,
-      domContentLoaded: 2000,
-      smallestLatency: 1000,
-      medianLatency: 10,
-      slowestResponse: 1000,
-      timeToFirstImage: 700
+      imageSize: 3955378,
+      domContentLoaded: 2354,
+      smallestLatency: 18,
+      medianLatency: 450,
+      slowestResponse: 3144,
+      timeToFirstImage: 2052
       
     }
   });
