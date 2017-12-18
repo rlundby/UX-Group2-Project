@@ -1,17 +1,13 @@
 .mobile-layout {
-	text-align: center;
-	h1 {
-		color: #95989A;
-		font-size: 25px;
-		font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
 		
-	}
 	@media screen and (min-width: 40em) {
 		display: none;
 	}
 }
 
 .popular {
+	margin-top: -20px;
+	text-align: center;
 	background-color: white;
 	.recipies {
 		img {
@@ -19,27 +15,58 @@
 			height: 105px;
 		}
 	}
+	h1 {
+		@extend %hdr;
+	}
 }
 .todays-dinner {
+	text-align: center;
 	background-color: white;
 	.dinner-layout {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		margin: 20px;
 	}
+	h1 {
+		@extend %hdr;
+		font-weight: normal;
+	}
 }
+
+.todays-checklist {
+	margin-left: 5px;
+}
+.check-slot {
+	display: flex;
+	align-items: baseline;
+	border-bottom: 0.5px solid #95989A;
+	p {
+		font-size: 12px;
+		margin-left: 15px;
+		color: #95989A;
+	}
+	.fa-check {
+		color: #0BE055;
+	}
+	.fa-warning {
+		color: #EFCE4A;
+	}
+}
+
+
 #checkbox-id {
 	display:none;
 }
 #checkbox-id:checked + nav .menu {
-	display: block;
+	display: flex;
 }
 .menu {
+	text-align: center;
 	background-color: white;
 	display: none;
-	position: fixed;
 	height: 100vh;
 	width: 100vw;
+	flex-direction: column;
 }
 .menu-icon {
 	height: 42px;
@@ -48,4 +75,19 @@
 }
 .menu-label {
 	cursor: pointer;
+}
+.menu-item {
+	display: flex;
+	align-items: baseline;
+	border-bottom: 0.5px solid #95989A;
+	p {
+		font-size: 30px;
+		color: #6A6A6A;
+		margin: 0px 10px 0px 10px;
+	}
+	.fa {
+		font-size: 30px;
+		color: #95989A;
+		padding: 20px;
+	}
 }

@@ -20,7 +20,7 @@
 	<!-- ONLY VISIBLE ON TABLET -->
   <div class="main-content">
 	  <div class="food-item food-item-1">
-		  <a href="#"><img src="images/FoodTest.jpg" alt=""></a>
+		  <a href="recept.html"><img src="images/FoodTest.jpg" alt=""></a>
 	  </div>
 	  <div class="food-item food-item-2">
 		  <img src="images/FoodTest2.jpg" alt="">
@@ -85,12 +85,30 @@
 	<!-- ONLY VISIBLE ON PHONE -->
 	
 	<div class="mobile-layout">
+		<header>
+			<img src="images/header.jpg" alt="">
+		</header>
 		<input type="checkbox" id="checkbox-id">
 		<nav>
 			<label class="menu-label" for="checkbox-id"><img class="menu-icon" src="images/menu.svg" alt=""></label>
 			<div class="menu">
 				<h1>SmartFridge Meny</h1>
-				<img src="images/meny.jpg" alt="">
+				<!--<img src="images/meny.jpg" alt="">-->
+				<a href="recept.html"><span class="menu-item">
+						<i class="fa fa-cutlery" aria-hidden="true"></i><p>Recept</p>
+				</span></a>
+				<span class="menu-item">
+						<i class="fa fa-lemon-o" aria-hidden="true"></i><p>Ingredienser</p>
+				</span>
+				<span class="menu-item">
+						<i class="fa fa-sticky-note" aria-hidden="true"></i><p>Inköpslista</p>
+				</span>
+				<span class="menu-item">
+						<i class="fa fa-clock-o" aria-hidden="true"></i><p>Timer</p>
+				</span>
+				<span class="menu-item">
+						<i class="fa fa-cog" aria-hidden="true"></i><p>Inställningar</p>
+				</span>
 			</div>
 		</nav>
 		<div class="popular">
@@ -104,8 +122,24 @@
 		<div class="todays-dinner">
 			<h1>Dagens Middag</h1>
 			<div class="dinner-layout">
-				<img src="images/FoodTest5.jpg" alt="">
-				<img src="images/datum.jpg" alt="">
+				<div class="todays-recepie">
+					<img src="images/FoodTest5.jpg" alt="">
+				</div>
+				<div class="todays-checklist">
+					<h1>Måndag</h1>
+					<span class="check-slot">
+						<i class="fa fa-check" aria-hidden="true"></i><p>Du har alla ingredienser hemma</p>
+					</span>
+					<span class="check-slot">
+						<i class="fa fa-check" aria-hidden="true"></i><p>Du har gett denna rätt fyra stjärnor</p>
+					</span>
+					<span class="check-slot">
+						<i class="fa fa-clock-o" aria-hidden="true"></i><p>Börja nu för att vara klar vid 18:00</p>
+					</span>
+					<span class="check-slot">
+						<i class="fa fa-warning" aria-hidden="true"></i><p>Du kommer använda dina sista ägg. Lägga till fler på inköpstlistan?</p>
+					</span>
+				</div>	
 			</div>
 			
 		</div>

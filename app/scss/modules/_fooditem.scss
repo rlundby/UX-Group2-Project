@@ -4,7 +4,7 @@
 	img {
 		width: 100%;
 		height: auto;
-	}
+		}
 	@include respond-to('small') {
 		display: block;
 	}
@@ -14,6 +14,7 @@
 	grid-column: 1;
 	height: 210px;
 	width: 210px;
+	margin-left: 5px;
 }
 
 .food-item-2 {

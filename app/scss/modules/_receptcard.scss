@@ -1,0 +1,91 @@
+//Intialize flex-card
+
+.list {
+  @extend %flexcard-container;
+  margin: 0;
+		
+}
+//Original flexcard
+.list-item{
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	p {
+		font-family: 'Roboto', sans-serif;
+	}
+	@include select-card(1){
+		@include respond-to('small') {
+			margin-left:12em; 
+			  width: 50%;
+			
+		  }
+		  @include respond-to('medium') {
+			
+			  width: 40%;
+			  margin-left: 0;
+			
+		  }
+	}
+@include select-card(2){
+
+
+	@include respond-to('small') {
+		
+		  width: 50%;
+		  margin-left:12em; 
+	  
+	  }
+
+@include respond-to('medium') {
+  
+	width: 54.66%;
+	margin-left: 0;
+  
+}
+		
+	}
+}
+// start of flexcard backup
+.card-2{
+@include respond-to('small') {
+	
+	  width: 50%;
+	  margin-left:12em; 
+  
+  }
+
+	@include respond-to('medium') {
+
+	width: 54.66%;
+	margin-left: 0;
+
+	}
+}
+
+.card-1{
+	@include respond-to('small') {
+		margin-left:12em; 
+		  width: 50%;
+		
+	  }
+	  @include respond-to('medium') {
+		
+		  width: 40%;
+		  margin-left: 0;
+		
+	  }
+}
+// end of flexcard backup
+
+.list-content{
+	@extend %flexcard-content;
+}
+// class for the first cards rubrik
+.Main-Rubrik{
+	display: flex;
+    flex-direction: row;
+	align-items: baseline;
+}
+// class for one part of the first cards rubrik
+.port{
+	padding-left: 5em; 
+}

@@ -17,18 +17,19 @@
 			color:#95989A;
 			font-size: 18px;
 			margin-left: 10px;
+			font-family: 'Roboto', sans-serif;
 			cursor: pointer;
 		}
 	}
 	.current-day {
 		margin: 15px;
 		h1 {
-			color: #95989A;
+			@extend %hdr;
 			border-bottom: 1px solid #95989A;
-			
 		}
 	}
 }
+
 .agenda {
 	.timeslot {
 		display: flex;
