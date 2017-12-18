@@ -6,15 +6,5 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 2fr;
 	padding-bottom: 60px;
-	@include respond-to('large') {
-		display: none;
-	}
-}
-
-//CSS for the desktop only option. This section displays an image, letting the user know the current viewport size is not supported.
-.desktop-only {
-	display: none;
-	@include respond-to('large') {
-		display: block;
-	}
+	
 }

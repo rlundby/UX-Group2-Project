@@ -3,7 +3,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
 /// COLORS map
 $color: (
@@ -21,9 +21,7 @@ $color: (
 
 $breakpoints: (
   'small':  ( min-width:  40.000em ),
-  'medium': ( min-width:  48.000em ),
-  'large':  ( min-width: 62.000em ),
-  'wide':  ( min-width: 75.000em )
+  'medium': ( min-width:  46.000em ),
 ) !default;
 
 

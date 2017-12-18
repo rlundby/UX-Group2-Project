@@ -55,7 +55,12 @@
 	.fa-warning {
 		color: #EFCE4A;
 	}
+	&:last-child
+	{
+	border-bottom: 0px solid black;	
+	}
 }
+
 
 // CSS for the mobile navbar
 #checkbox-id {
