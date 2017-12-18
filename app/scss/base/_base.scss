@@ -13,9 +13,11 @@ html {
 
 // set upp body color
 body{
-  margin: 0;
   padding: 0;
   background-color: #F6F6F6;
+	max-width: 768px;
+    margin: auto;
+    height: 100%;
 }
 
 body a:link{

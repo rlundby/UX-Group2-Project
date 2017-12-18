@@ -1,3 +1,5 @@
+
+// Make sure the mobile layout only displays on correct dimensions
 .mobile-layout {
 		
 	@media screen and (min-width: 40em) {
@@ -5,20 +7,22 @@
 	}
 }
 
+// CSS for the popular section of the mobile site
 .popular {
 	margin-top: -20px;
 	text-align: center;
 	background-color: white;
 	.recipies {
 		img {
-			width: 105px;
-			height: 105px;
+			width: 150px;
+			height: 150px;
 		}
 	}
 	h1 {
 		@extend %hdr;
 	}
 }
+// CSS for the todays dinner section of the mobile site
 .todays-dinner {
 	text-align: center;
 	background-color: white;
@@ -29,13 +33,13 @@
 	}
 	h1 {
 		@extend %hdr;
-		font-weight: normal;
 	}
 }
-
+// CSS for the todays dinner checklist of the mobile site
 .todays-checklist {
 	margin-left: 5px;
 }
+// CSS for the individual sections of todays dinner checklist of the mobile site
 .check-slot {
 	display: flex;
 	align-items: baseline;
@@ -53,7 +57,7 @@
 	}
 }
 
-
+// CSS for the mobile navbar
 #checkbox-id {
 	display:none;
 }

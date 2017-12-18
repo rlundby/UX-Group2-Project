@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SmartFridge</title>
+
+     <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+
+<body>
+    <!-- Main grid, also 100% height -->
+    <div class="main-grid">
+
+        <!-- Header hero, with image and clock -->
+        <div class="header-hero">
+
+            <!-- Clock in header -->
+            <div id="header-clock">
+                <h1>15:32</h1>
+            </div>
+
+            <!-- Weather degree in header -->
+            <div id="header-weather-degree">
+                <h1>-1&deg;</h1>
+            </div>
+
+            <!-- Weather place in header -->
+            <div id="header-weather-place">
+                <h3>Växjö</h3>
+            </div>
+
+            <!-- Weather degree in header -->
+            <div id="header-weather-icon">
+            </div>
+
+        </div>
+
+
+        <!-- Searchbar, beneath header-hero -->
+        <div class="search-bar">
+            
+            <!-- search icon in searchbar -->
+            <div id="searchbar-iconblock">
+                <div id="searchbar-icon"></div>
+                <div id="searchbar-divider"></div>
+            </div>
+            
+            <!-- search field in searchbar -->
+            <div id ="searchbar-field">
+                    <input type="text" name="searchbar-top" placeholder="Curry, högrev ...">
+            </div>
+        
+        </div>
+
+
+        <!-- Maincontent for current page -->
+        <div class="main-content">
+            <div id="todo-tools">
+                <h2>Inköpslista</h2>
+            </div>
+            <ul id="todo-list">
+                <li class="trash move">Curry - santa maria</li>
+                <li class="trash move">Gurka</li>
+                <li class="trash move">Gräddfil</li>
+                <li class="trash move">Matgrädde</li>
+                <li class="trash move">Chips</li>
+                <li class="trash move">Kyckling</li>
+            </ul>
+            <br />
+            <h2>Rekommendation</h2>
+            <ul id="recept-list">
+                <li class="import">Currygryta</li>
+                <li class="import">Högrevsburgare</li>
+                <li class="import">Veckohandel</li>
+            </ul>
+
+        </div>
+
+
+        <!-- footer, also the only menu for the UI-->
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html"><div id="menuItem1"></div></a></li>
+                <li><a href="recept.html"><div id="menuItem2"></div></a></li>
+                <li><a href=""><div id="menuItem3"></div></a></li>
+                <li><a href="shoppinglist.html"><div id="menuItem4"></div></a></li>
+                <li><a href=""><div id="menuItem5"></div></a></li>
+                <li><a href=""><div id="menuItem6"></div></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,3 +1,5 @@
+
+// Food item CSS - for the Main Site
 .food-item {
 	display: none;
 	margin-top: 5px;
@@ -10,13 +12,14 @@
 	}
 }
 
+// Left Row of Food Items
 .food-item-1 {
 	grid-column: 1;
 	height: 210px;
 	width: 210px;
 	margin-left: 5px;
 }
-
+// Right Row of Food Items
 .food-item-2 {
 	grid-column: 2;
 	height: 210px;

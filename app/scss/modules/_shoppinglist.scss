@@ -1,0 +1,143 @@
+.main-content{
+    top: 225px;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 60px;
+    max-width: 768px;
+}
+
+.main-content h2 {
+    padding: 5px;
+    color: gray;
+}
+
+#todo-tools{
+    width: 100%;
+}
+
+#todo-tools::after {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../svg/printer.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+#todo-tools::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 15px;
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../svg/plus.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+/* Remove margins and padding from the list */
+.main-content #todo-list {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+
+/* Style the list items */
+.main-content #todo-list li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 20px;
+    list-style-type: none;
+    background: #FFFFFF;
+    font-size: 16px;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0px 2px rgba(136, 136, 136, 0.21);
+}
+
+
+.main-content #todo-list li.trash::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 15px;
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../svg/close.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.main-content #todo-list li.move::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 50px;
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../svg/menu-button-of-three-horizontal-lines.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/* Remove margins and padding from the list */
+.main-content #recept-list {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+
+/* Style the list items */
+.main-content #recept-list li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 20px;
+    list-style-type: none;
+    background: #FFFFFF;
+    font-size: 16px;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0px 2px rgba(136, 136, 136, 0.21);
+}
+
+
+.main-content #recept-list li.import::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 15px;
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../svg/upload.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+
+  

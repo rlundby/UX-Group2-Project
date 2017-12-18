@@ -1,0 +1,54 @@
+.search-bar {
+    display: inline-flex;
+    position: absolute;
+    top: 165px;
+    height: 60px;
+    width: 100%;
+    max-width: 768px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px rgba(136, 136, 136, 0.21);
+}
+
+#searchbar-iconblock{
+    width: 60px;
+    height: 60px;
+}
+
+#searchbar-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("../svg/magnifier-tool.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 17.5px;
+}
+
+#searchbar-divider {
+    width: 1px;
+    height: 40px;
+    margin-left: 55px;
+    position: absolute;
+    top: 10px;
+    background: #D1D1D1;
+}
+
+#searchbar-field{
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+}
+
+#searchbar-field input{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+}
+
+#searchbar-field input:focus{
+    outline: none;
+}
