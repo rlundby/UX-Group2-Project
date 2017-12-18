@@ -109,12 +109,8 @@ gulp.task('louis', function() {
       jsSize: 226976,
       consoleMessages: 3,
       imageSize: 3955378,
-      domContentLoaded: 2354,
       smallestLatency: 18,
-      medianLatency: 450,
-      slowestResponse: 3144,
-      timeToFirstImage: 2052
-      
+      medianLatency: 450,  
     }
   });
 });
